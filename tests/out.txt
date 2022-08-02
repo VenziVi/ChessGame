@@ -1,0 +1,2 @@
+Moves count: 9
+Moves: left | up | right | down | left | up | right | down | left | 
