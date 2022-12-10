@@ -20,7 +20,7 @@ void printBoard(board *playBoard)
 
 void printTotalMoves(result *result)
 {
-    FILE *f_ptr = fopen("files/out.txt", "w");
+    FILE *f_ptr = fopen("output/out.txt", "w");
 
     fprintf(f_ptr, "Moves count: %d\n", result->moveCounter);
     fprintf(f_ptr, "Moves: ");
